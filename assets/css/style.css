@@ -58,11 +58,33 @@ body {
 }
 
 header {
-    padding-top: 100px;
+    padding: 100px 0px;
     font-size: 75px;
     font-weight: bold;
     text-align: center;
     color: blue;
+}
+
+ol {
+    list-style-type: decimal;
+    font-style: italic;
+    width: 5%;
+    margin: 0 auto;
+}
+
+footer {
+    margin: 50px 0px;
+}
+
+li {
+    font-size: 20px;
+    width: 150px;
+    border-radius: 25px;
+}
+
+li:hover {
+    cursor: pointer;
+    background-color: yellowgreen;
 }
 
 /* CUSTOM CLASSES */
@@ -71,5 +93,26 @@ header {
     background-color: lightyellow;
     margin: 0 auto;
     width: 80%;
-    height: 100vh;
+    height: 100%;
+}
+
+.content {
+    text-align: center;
+    margin: 0 auto;
+    line-height: 30px
+}
+
+.time-remaining {
+    font-size: 25px;
+}
+
+/* CUSTOM ID'S */
+
+#question {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#time-value {
+    color: green;
 }
